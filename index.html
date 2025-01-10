@@ -1,81 +1,57 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ứng Dụng Học Từ Vựng</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Trang Chủ</a></li>
+                <li><a href="#features">Tính Năng</a></li>
+                <li><a href="#download">Tải về</a></li>
+                <li><a href="#contact">Liên Hệ</a></li>
+            </ul>
+        </nav>
+    </header>
 
-header {
-    background-color: #333;
-    padding: 1em 0;
-}
+    <section id="home" class="hero">
+        <img src="app-image.jpg" alt="Ứng dụng học từ vựng" class="app-image">
+        <h1>Học Từ Vựng Mỗi Ngày, Dễ Dàng và Hiệu Quả</h1>
+        <p>Ứng dụng giúp bạn cải thiện từ vựng một cách thú vị và nhanh chóng</p>
+        <a href="#download" class="cta-button">Tải Ngay</a>
+    </section>
 
-header nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-}
+    <section id="features" class="features">
+        <h2>Tính Năng Nổi Bật</h2>
+        <ul>
+            <li>Flashcard thông minh với nhiều ngôn ngữ</li>
+            <li>Luyện tập qua trò chơi vui nhộn</li>
+            <li>Nhắc nhở học tập mỗi ngày</li>
+            <li>Thống kê tiến độ học tập chi tiết</li>
+        </ul>
+    </section>
 
-header nav ul li {
-    margin-right: 20px;
-}
+    <section id="screenshots" class="screenshots">
+        <h2>Ảnh Chụp Màn Hình</h2>
+        <div class="screenshot">
+            <img src="screenshot1.jpg" alt="Ảnh chụp ứng dụng 1">
+            <img src="screenshot2.jpg" alt="Ảnh chụp ứng dụng 2">
+        </div>
+    </section>
 
-header nav ul li a {
-    color: white;
-    text-decoration: none;
-}
+    <section id="download" class="download">
+        <h2>Tải Ứng Dụng</h2>
+        <a href="https://play.google.com/store" class="cta-button">Tải trên Google Play</a>
+        <a href="https://apps.apple.com" class="cta-button">Tải trên App Store</a>
+    </section>
 
-.hero {
-    background-color: #f9b233;
-    color: white;
-    text-align: center;
-    padding: 100px 0;
-}
+    <footer>
+        <p>© 2025 Ứng Dụng Học Từ Vựng. Tất cả quyền sở hữu.</p>
+    </footer>
 
-.hero h1 {
-    font-size: 3em;
-    margin-bottom: 20px;
-}
-
-.hero p {
-    font-size: 1.2em;
-    margin-bottom: 30px;
-}
-
-.cta-button {
-    background-color: #e94e77;
-    color: white;
-    padding: 15px 30px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1em;
-}
-
-.features, .screenshots, .download {
-    padding: 50px 0;
-    text-align: center;
-}
-
-.features ul {
-    list-style: none;
-    padding: 0;
-}
-
-.features ul li {
-    font-size: 1.2em;
-    margin: 10px 0;
-}
-
-.screenshot img {
-    width: 45%;
-    margin: 10px;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-}
-
+</body>
+</html>
